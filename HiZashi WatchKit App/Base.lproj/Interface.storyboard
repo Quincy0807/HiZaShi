@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
+    </dependencies>
+    <scenes>
+        <!--Word-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="Word" id="AgC-eL-Hgc" customClass="WordInterfaceController" customModule="HiZashi_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="6Cl-k2-Kg8">
+                            <items>
+                                <button width="30" height="24" alignment="left" title="🙂" id="i1d-18-BoN">
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <connections>
+                                        <action selector="allWordsListNavigation" destination="AgC-eL-Hgc" id="xwn-qJ-MrK"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="5" top="5" bottom="0.0"/>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="center" layout="vertical" id="fiS-TB-NDX">
+                            <items>
+                                <label width="1" alignment="left" text="(word)" textAlignment="center" numberOfLines="2" id="Wn2-ZF-1Dr">
+                                    <fontDescription key="font" type="system" pointSize="16"/>
+                                </label>
+                                <label width="1" alignment="left" text="(explaination)" textAlignment="center" id="zFV-fW-xhC"/>
+                                <label width="1" alignment="left" text="(sentence)" textAlignment="center" baselineAdjustment="alignCenters" numberOfLines="5" id="oUP-Ow-AHw"/>
+                            </items>
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="Ofm-8P-Evo">
+                                    <connections>
+                                        <action selector="onTap" destination="AgC-eL-Hgc" id="rsT-Ej-5nq"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="explainationLabel" destination="zFV-fW-xhC" id="mUg-Vq-vaP"/>
+                        <outlet property="sentenceLabel" destination="oUP-Ow-AHw" id="pXo-5Z-mGs"/>
+                        <outlet property="wordLabel" destination="Wn2-ZF-1Dr" id="Kul-Ae-3Cn"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-258" y="-49"/>
+        </scene>
+        <!--WordList-->
+        <scene sceneID="5EH-vY-1x3">
+            <objects>
+                <controller identifier="WordList" id="2L0-R8-raI" customClass="WordListInterfaceController" customModule="HiZashi_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="VY3-W8-IqQ">
+                            <items>
+                                <tableRow identifier="WordRow" id="LYd-Yj-g7Q" customClass="WordListRowController" customModule="HiZashi_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="ybt-2j-lxQ">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="iXg-d8-ATL">
+                                                <color key="color" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            </separator>
+                                            <group alignment="left" layout="vertical" spacing="0.0" id="uw8-N6-3Ji">
+                                                <items>
+                                                    <label alignment="left" text="(Word)" id="ywj-0g-bRy">
+                                                        <color key="textColor" red="0.015686274510000001" green="0.66274509800000003" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="5" bottom="5"/>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="wordNameLabel" destination="ywj-0g-bRy" id="OHL-cy-ipS"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="wordListTable" destination="VY3-W8-IqQ" id="wCW-mn-o3B"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="265" y="-49"/>
+        </scene>
+    </scenes>
+</document>

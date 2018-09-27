@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2479CA15215A9C9400FD9297 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA13215A9C9400FD9297 /* DataModel.xcdatamodeld */; };
+		2479CA19215A9DE100FD9297 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2479CA18215A9DE100FD9297 /* data.json */; };
+		2479CA1B215AA30100FD9297 /* WordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA1A215AA30100FD9297 /* WordEntity.swift */; };
+		2479CA1C215AA7DB00FD9297 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2479CA18215A9DE100FD9297 /* data.json */; };
+		2479CA1D215AA7DB00FD9297 /* WordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA1A215AA30100FD9297 /* WordEntity.swift */; };
+		2479CA1F215BF2BE00FD9297 /* WordListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA1E215BF2BE00FD9297 /* WordListInterfaceController.swift */; };
+		2479CA21215BF53200FD9297 /* WordListRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA20215BF53200FD9297 /* WordListRowController.swift */; };
+		2479CA29215D457000FD9297 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA28215D457000FD9297 /* Consts.swift */; };
+		24DCCEEC21594F4400C1539D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCCEEB21594F4400C1539D /* AppDelegate.swift */; };
+		24DCCEEE21594F4400C1539D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCCEED21594F4400C1539D /* ViewController.swift */; };
+		24DCCEF121594F4400C1539D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DCCEEF21594F4400C1539D /* Main.storyboard */; };
+		24DCCEF321594F4400C1539D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DCCEF221594F4400C1539D /* Assets.xcassets */; };
+		24DCCEF621594F4400C1539D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DCCEF421594F4400C1539D /* LaunchScreen.storyboard */; };
+		24DCCEFB21594F4500C1539D /* HiZashi WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 24DCCEFA21594F4500C1539D /* HiZashi WatchKit App.app */; };
+		24DCCF0121594F4500C1539D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DCCEFF21594F4500C1539D /* Interface.storyboard */; };
+		24DCCF0321594F4500C1539D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DCCF0221594F4500C1539D /* Assets.xcassets */; };
+		24DCCF0A21594F4500C1539D /* HiZashi WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24DCCF0921594F4500C1539D /* HiZashi WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24DCCF0F21594F4500C1539D /* WordInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCCF0E21594F4500C1539D /* WordInterfaceController.swift */; };
+		24DCCF1121594F4500C1539D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCCF1021594F4500C1539D /* ExtensionDelegate.swift */; };
+		24DCCF1321594F4600C1539D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DCCF1221594F4600C1539D /* Assets.xcassets */; };
+		33D8F433782456572F77809E /* Pods_HiZashi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35AB73F48E9A7BD13B4B578 /* Pods_HiZashi.framework */; };
+		AFC3E3F2DFF22AF152D43049 /* Pods_HiZashi_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5FBC717416E20B56710144 /* Pods_HiZashi_WatchKit_Extension.framework */; };
+		B99E9DD53F2F38501A541529 /* Pods_HiZashi_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C09359029C9DD2B32D3ABE /* Pods_HiZashi_WatchKit_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24DCCEFC21594F4500C1539D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DCCEE021594F4400C1539D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DCCEF921594F4500C1539D;
+			remoteInfo = "HiZashi WatchKit App";
+		};
+		24DCCF0B21594F4500C1539D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DCCEE021594F4400C1539D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DCCF0821594F4500C1539D;
+			remoteInfo = "HiZashi WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24DCCF1A21594F4600C1539D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				24DCCF0A21594F4500C1539D /* HiZashi WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DCCF1E21594F4600C1539D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				24DCCEFB21594F4500C1539D /* HiZashi WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19A06D8CDA143C46966A95A5 /* Pods-HiZashi WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiZashi WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiZashi WatchKit Extension/Pods-HiZashi WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		1D5FBC717416E20B56710144 /* Pods_HiZashi_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiZashi_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2479CA14215A9C9400FD9297 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		2479CA18215A9DE100FD9297 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		2479CA1A215AA30100FD9297 /* WordEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordEntity.swift; sourceTree = "<group>"; };
+		2479CA1E215BF2BE00FD9297 /* WordListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListInterfaceController.swift; sourceTree = "<group>"; };
+		2479CA20215BF53200FD9297 /* WordListRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListRowController.swift; sourceTree = "<group>"; };
+		2479CA28215D457000FD9297 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		24DCCEE821594F4400C1539D /* HiZashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiZashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DCCEEB21594F4400C1539D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24DCCEED21594F4400C1539D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24DCCEF021594F4400C1539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24DCCEF221594F4400C1539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24DCCEF521594F4400C1539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24DCCEF721594F4400C1539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DCCEFA21594F4500C1539D /* HiZashi WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HiZashi WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DCCF0021594F4500C1539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		24DCCF0221594F4500C1539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24DCCF0421594F4500C1539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DCCF0921594F4500C1539D /* HiZashi WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HiZashi WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DCCF0E21594F4500C1539D /* WordInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordInterfaceController.swift; sourceTree = "<group>"; };
+		24DCCF1021594F4500C1539D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		24DCCF1221594F4600C1539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24DCCF1421594F4600C1539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585B72306E8265A01769C28F /* Pods-HiZashi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiZashi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiZashi/Pods-HiZashi.debug.xcconfig"; sourceTree = "<group>"; };
+		76B3768D06F3757023DC21EA /* Pods-HiZashi WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiZashi WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiZashi WatchKit App/Pods-HiZashi WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		77C09359029C9DD2B32D3ABE /* Pods_HiZashi_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiZashi_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CCBA1032761858A528726A /* Pods-HiZashi WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiZashi WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiZashi WatchKit Extension/Pods-HiZashi WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		A35AB73F48E9A7BD13B4B578 /* Pods_HiZashi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiZashi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84C4533120B2BCBCAD0EDA0 /* Pods-HiZashi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiZashi.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiZashi/Pods-HiZashi.release.xcconfig"; sourceTree = "<group>"; };
+		E05944B3F67B55DA759402E3 /* Pods-HiZashi WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiZashi WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiZashi WatchKit App/Pods-HiZashi WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DCCEE521594F4400C1539D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D8F433782456572F77809E /* Pods_HiZashi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DCCF0621594F4500C1539D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC3E3F2DFF22AF152D43049 /* Pods_HiZashi_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE5B7ACE58CDE3ED1E8450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99E9DD53F2F38501A541529 /* Pods_HiZashi_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2479CA11215A9B9100FD9297 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2479CA12215A9B9C00FD9297 /* Model */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2479CA12215A9B9C00FD9297 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2479CA13215A9C9400FD9297 /* DataModel.xcdatamodeld */,
+				2479CA18215A9DE100FD9297 /* data.json */,
+				2479CA1A215AA30100FD9297 /* WordEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2479CA22215D3C6200FD9297 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2479CA20215BF53200FD9297 /* WordListRowController.swift */,
+				2479CA1E215BF2BE00FD9297 /* WordListInterfaceController.swift */,
+				24DCCF0E21594F4500C1539D /* WordInterfaceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2479CA23215D3D0200FD9297 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				24DCCF1021594F4500C1539D /* ExtensionDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		2479CA27215D456000FD9297 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2479CA28215D457000FD9297 /* Consts.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		24DCCEDF21594F4400C1539D = {
+			isa = PBXGroup;
+			children = (
+				2479CA11215A9B9100FD9297 /* Shared */,
+				24DCCEEA21594F4400C1539D /* HiZashi */,
+				24DCCEFE21594F4500C1539D /* HiZashi WatchKit App */,
+				24DCCF0D21594F4500C1539D /* HiZashi WatchKit Extension */,
+				24DCCEE921594F4400C1539D /* Products */,
+				B9AE7444EBB89A60D4FD8F78 /* Pods */,
+				84236A2724D59A908405C96B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24DCCEE921594F4400C1539D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24DCCEE821594F4400C1539D /* HiZashi.app */,
+				24DCCEFA21594F4500C1539D /* HiZashi WatchKit App.app */,
+				24DCCF0921594F4500C1539D /* HiZashi WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24DCCEEA21594F4400C1539D /* HiZashi */ = {
+			isa = PBXGroup;
+			children = (
+				24DCCEEB21594F4400C1539D /* AppDelegate.swift */,
+				24DCCEED21594F4400C1539D /* ViewController.swift */,
+				24DCCEEF21594F4400C1539D /* Main.storyboard */,
+				24DCCEF221594F4400C1539D /* Assets.xcassets */,
+				24DCCEF421594F4400C1539D /* LaunchScreen.storyboard */,
+				24DCCEF721594F4400C1539D /* Info.plist */,
+			);
+			path = HiZashi;
+			sourceTree = "<group>";
+		};
+		24DCCEFE21594F4500C1539D /* HiZashi WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				24DCCEFF21594F4500C1539D /* Interface.storyboard */,
+				24DCCF0221594F4500C1539D /* Assets.xcassets */,
+				24DCCF0421594F4500C1539D /* Info.plist */,
+			);
+			path = "HiZashi WatchKit App";
+			sourceTree = "<group>";
+		};
+		24DCCF0D21594F4500C1539D /* HiZashi WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2479CA27215D456000FD9297 /* Utils */,
+				2479CA23215D3D0200FD9297 /* Delegate */,
+				2479CA22215D3C6200FD9297 /* Controller */,
+				24DCCF1221594F4600C1539D /* Assets.xcassets */,
+				24DCCF1421594F4600C1539D /* Info.plist */,
+			);
+			path = "HiZashi WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		84236A2724D59A908405C96B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35AB73F48E9A7BD13B4B578 /* Pods_HiZashi.framework */,
+				77C09359029C9DD2B32D3ABE /* Pods_HiZashi_WatchKit_App.framework */,
+				1D5FBC717416E20B56710144 /* Pods_HiZashi_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9AE7444EBB89A60D4FD8F78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				585B72306E8265A01769C28F /* Pods-HiZashi.debug.xcconfig */,
+				C84C4533120B2BCBCAD0EDA0 /* Pods-HiZashi.release.xcconfig */,
+				E05944B3F67B55DA759402E3 /* Pods-HiZashi WatchKit App.debug.xcconfig */,
+				76B3768D06F3757023DC21EA /* Pods-HiZashi WatchKit App.release.xcconfig */,
+				19A06D8CDA143C46966A95A5 /* Pods-HiZashi WatchKit Extension.debug.xcconfig */,
+				84CCBA1032761858A528726A /* Pods-HiZashi WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24DCCEE721594F4400C1539D /* HiZashi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DCCF1F21594F4600C1539D /* Build configuration list for PBXNativeTarget "HiZashi" */;
+			buildPhases = (
+				EC1F0CA31F50885AA14EB402 /* [CP] Check Pods Manifest.lock */,
+				24DCCEE421594F4400C1539D /* Sources */,
+				24DCCEE521594F4400C1539D /* Frameworks */,
+				24DCCEE621594F4400C1539D /* Resources */,
+				24DCCF1E21594F4600C1539D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DCCEFD21594F4500C1539D /* PBXTargetDependency */,
+			);
+			name = HiZashi;
+			productName = HiZashi;
+			productReference = 24DCCEE821594F4400C1539D /* HiZashi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24DCCEF921594F4500C1539D /* HiZashi WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DCCF1B21594F4600C1539D /* Build configuration list for PBXNativeTarget "HiZashi WatchKit App" */;
+			buildPhases = (
+				269E5A0FE1FF20B0D4477047 /* [CP] Check Pods Manifest.lock */,
+				24DCCEF821594F4500C1539D /* Resources */,
+				24DCCF1A21594F4600C1539D /* Embed App Extensions */,
+				A1DE5B7ACE58CDE3ED1E8450 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DCCF0C21594F4500C1539D /* PBXTargetDependency */,
+			);
+			name = "HiZashi WatchKit App";
+			productName = "HiZashi WatchKit App";
+			productReference = 24DCCEFA21594F4500C1539D /* HiZashi WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		24DCCF0821594F4500C1539D /* HiZashi WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DCCF1721594F4600C1539D /* Build configuration list for PBXNativeTarget "HiZashi WatchKit Extension" */;
+			buildPhases = (
+				B5062190D2BDAA091CD5BD74 /* [CP] Check Pods Manifest.lock */,
+				24DCCF0521594F4500C1539D /* Sources */,
+				24DCCF0621594F4500C1539D /* Frameworks */,
+				24DCCF0721594F4500C1539D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HiZashi WatchKit Extension";
+			productName = "HiZashi WatchKit Extension";
+			productReference = 24DCCF0921594F4500C1539D /* HiZashi WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24DCCEE021594F4400C1539D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Quincy;
+				TargetAttributes = {
+					24DCCEE721594F4400C1539D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					24DCCEF921594F4500C1539D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					24DCCF0821594F4500C1539D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 24DCCEE321594F4400C1539D /* Build configuration list for PBXProject "HiZashi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24DCCEDF21594F4400C1539D;
+			productRefGroup = 24DCCEE921594F4400C1539D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24DCCEE721594F4400C1539D /* HiZashi */,
+				24DCCEF921594F4500C1539D /* HiZashi WatchKit App */,
+				24DCCF0821594F4500C1539D /* HiZashi WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24DCCEE621594F4400C1539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DCCEF621594F4400C1539D /* LaunchScreen.storyboard in Resources */,
+				24DCCEF321594F4400C1539D /* Assets.xcassets in Resources */,
+				24DCCEF121594F4400C1539D /* Main.storyboard in Resources */,
+				2479CA19215A9DE100FD9297 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DCCEF821594F4500C1539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DCCF0321594F4500C1539D /* Assets.xcassets in Resources */,
+				24DCCF0121594F4500C1539D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DCCF0721594F4500C1539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DCCF1321594F4600C1539D /* Assets.xcassets in Resources */,
+				2479CA1C215AA7DB00FD9297 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		269E5A0FE1FF20B0D4477047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiZashi WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5062190D2BDAA091CD5BD74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiZashi WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1F0CA31F50885AA14EB402 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiZashi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24DCCEE421594F4400C1539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2479CA15215A9C9400FD9297 /* DataModel.xcdatamodeld in Sources */,
+				2479CA1B215AA30100FD9297 /* WordEntity.swift in Sources */,
+				24DCCEEE21594F4400C1539D /* ViewController.swift in Sources */,
+				24DCCEEC21594F4400C1539D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DCCF0521594F4500C1539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2479CA21215BF53200FD9297 /* WordListRowController.swift in Sources */,
+				2479CA29215D457000FD9297 /* Consts.swift in Sources */,
+				2479CA1D215AA7DB00FD9297 /* WordEntity.swift in Sources */,
+				24DCCF1121594F4500C1539D /* ExtensionDelegate.swift in Sources */,
+				24DCCF0F21594F4500C1539D /* WordInterfaceController.swift in Sources */,
+				2479CA1F215BF2BE00FD9297 /* WordListInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24DCCEFD21594F4500C1539D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DCCEF921594F4500C1539D /* HiZashi WatchKit App */;
+			targetProxy = 24DCCEFC21594F4500C1539D /* PBXContainerItemProxy */;
+		};
+		24DCCF0C21594F4500C1539D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DCCF0821594F4500C1539D /* HiZashi WatchKit Extension */;
+			targetProxy = 24DCCF0B21594F4500C1539D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24DCCEEF21594F4400C1539D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DCCEF021594F4400C1539D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24DCCEF421594F4400C1539D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DCCEF521594F4400C1539D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		24DCCEFF21594F4500C1539D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DCCF0021594F4500C1539D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24DCCF1521594F4600C1539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24DCCF1621594F4600C1539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24DCCF1821594F4600C1539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A06D8CDA143C46966A95A5 /* Pods-HiZashi WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z77V3JG5WS;
+				INFOPLIST_FILE = "HiZashi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.quincy.chen.HiZashi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		24DCCF1921594F4600C1539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CCBA1032761858A528726A /* Pods-HiZashi WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z77V3JG5WS;
+				INFOPLIST_FILE = "HiZashi WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.quincy.chen.HiZashi.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		24DCCF1C21594F4600C1539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05944B3F67B55DA759402E3 /* Pods-HiZashi WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z77V3JG5WS;
+				IBSC_MODULE = HiZashi_WatchKit_Extension;
+				INFOPLIST_FILE = "HiZashi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.quincy.chen.HiZashi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		24DCCF1D21594F4600C1539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B3768D06F3757023DC21EA /* Pods-HiZashi WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z77V3JG5WS;
+				IBSC_MODULE = HiZashi_WatchKit_Extension;
+				INFOPLIST_FILE = "HiZashi WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = sg.quincy.chen.HiZashi.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		24DCCF2021594F4600C1539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585B72306E8265A01769C28F /* Pods-HiZashi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z77V3JG5WS;
+				INFOPLIST_FILE = HiZashi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.quincy.chen.HiZashi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24DCCF2121594F4600C1539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84C4533120B2BCBCAD0EDA0 /* Pods-HiZashi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z77V3JG5WS;
+				INFOPLIST_FILE = HiZashi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sg.quincy.chen.HiZashi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DCCEE321594F4400C1539D /* Build configuration list for PBXProject "HiZashi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DCCF1521594F4600C1539D /* Debug */,
+				24DCCF1621594F4600C1539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DCCF1721594F4600C1539D /* Build configuration list for PBXNativeTarget "HiZashi WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DCCF1821594F4600C1539D /* Debug */,
+				24DCCF1921594F4600C1539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DCCF1B21594F4600C1539D /* Build configuration list for PBXNativeTarget "HiZashi WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DCCF1C21594F4600C1539D /* Debug */,
+				24DCCF1D21594F4600C1539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DCCF1F21594F4600C1539D /* Build configuration list for PBXNativeTarget "HiZashi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DCCF2021594F4600C1539D /* Debug */,
+				24DCCF2121594F4600C1539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2479CA13215A9C9400FD9297 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2479CA14215A9C9400FD9297 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 2479CA14215A9C9400FD9297 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24DCCEE021594F4400C1539D /* Project object */;
+}
