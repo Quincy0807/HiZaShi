@@ -11,10 +11,10 @@ import WatchKit
 class WordListRowController: NSObject {
     @IBOutlet weak var wordNameLabel: WKInterfaceLabel!
     
-    var wordEntity: WordEntity? {
+    var tanGo: TanGo? {
         didSet {
-            guard let wordEntity = wordEntity else {return }
-            wordNameLabel.setText(wordEntity.word)
+            guard let tanGo = tanGo  else {return }
+            wordNameLabel.setText(tanGo.word)
         }
     }
 }

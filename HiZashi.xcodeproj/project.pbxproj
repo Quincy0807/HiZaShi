@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2479CA15215A9C9400FD9297 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA13215A9C9400FD9297 /* DataModel.xcdatamodeld */; };
-		2479CA19215A9DE100FD9297 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2479CA18215A9DE100FD9297 /* data.json */; };
-		2479CA1B215AA30100FD9297 /* WordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA1A215AA30100FD9297 /* WordEntity.swift */; };
-		2479CA1C215AA7DB00FD9297 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 2479CA18215A9DE100FD9297 /* data.json */; };
-		2479CA1D215AA7DB00FD9297 /* WordEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA1A215AA30100FD9297 /* WordEntity.swift */; };
+		244A29622160D5C500274318 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A29612160D5C500274318 /* Schedule.swift */; };
+		244A29642162A1FC00274318 /* tango_data.realm in Resources */ = {isa = PBXBuildFile; fileRef = 244A29632162A1FC00274318 /* tango_data.realm */; };
+		244A29662162A2EA00274318 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A29652162A2EA00274318 /* DataModel.swift */; };
+		244A29672162A48500274318 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244A29652162A2EA00274318 /* DataModel.swift */; };
+		244A29682162A4FD00274318 /* TanGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA2A2160C9CB00FD9297 /* TanGo.swift */; };
+		246494CF2163F498007DB156 /* tango_data.realm in Resources */ = {isa = PBXBuildFile; fileRef = 244A29632162A1FC00274318 /* tango_data.realm */; };
 		2479CA1F215BF2BE00FD9297 /* WordListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA1E215BF2BE00FD9297 /* WordListInterfaceController.swift */; };
 		2479CA21215BF53200FD9297 /* WordListRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA20215BF53200FD9297 /* WordListRowController.swift */; };
 		2479CA29215D457000FD9297 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA28215D457000FD9297 /* Consts.swift */; };
+		2479CA2B2160C9CB00FD9297 /* TanGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2479CA2A2160C9CB00FD9297 /* TanGo.swift */; };
 		24DCCEEC21594F4400C1539D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCCEEB21594F4400C1539D /* AppDelegate.swift */; };
 		24DCCEEE21594F4400C1539D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCCEED21594F4400C1539D /* ViewController.swift */; };
 		24DCCEF121594F4400C1539D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DCCEEF21594F4400C1539D /* Main.storyboard */; };
@@ -77,12 +79,13 @@
 /* Begin PBXFileReference section */
 		19A06D8CDA143C46966A95A5 /* Pods-HiZashi WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiZashi WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiZashi WatchKit Extension/Pods-HiZashi WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		1D5FBC717416E20B56710144 /* Pods_HiZashi_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiZashi_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2479CA14215A9C9400FD9297 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		2479CA18215A9DE100FD9297 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		2479CA1A215AA30100FD9297 /* WordEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordEntity.swift; sourceTree = "<group>"; };
+		244A29612160D5C500274318 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		244A29632162A1FC00274318 /* tango_data.realm */ = {isa = PBXFileReference; lastKnownFileType = text; path = tango_data.realm; sourceTree = "<group>"; };
+		244A29652162A2EA00274318 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		2479CA1E215BF2BE00FD9297 /* WordListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListInterfaceController.swift; sourceTree = "<group>"; };
 		2479CA20215BF53200FD9297 /* WordListRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListRowController.swift; sourceTree = "<group>"; };
 		2479CA28215D457000FD9297 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		2479CA2A2160C9CB00FD9297 /* TanGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanGo.swift; sourceTree = "<group>"; };
 		24DCCEE821594F4400C1539D /* HiZashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiZashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DCCEEB21594F4400C1539D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DCCEED21594F4400C1539D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,9 +150,10 @@
 		2479CA12215A9B9C00FD9297 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2479CA13215A9C9400FD9297 /* DataModel.xcdatamodeld */,
-				2479CA18215A9DE100FD9297 /* data.json */,
-				2479CA1A215AA30100FD9297 /* WordEntity.swift */,
+				2479CA2A2160C9CB00FD9297 /* TanGo.swift */,
+				244A29612160D5C500274318 /* Schedule.swift */,
+				244A29632162A1FC00274318 /* tango_data.realm */,
+				244A29652162A2EA00274318 /* DataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -273,6 +277,7 @@
 				24DCCEE521594F4400C1539D /* Frameworks */,
 				24DCCEE621594F4400C1539D /* Resources */,
 				24DCCF1E21594F4600C1539D /* Embed Watch Content */,
+				44BFD6FAE1BD7FD520960501 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,6 +316,7 @@
 				24DCCF0521594F4500C1539D /* Sources */,
 				24DCCF0621594F4500C1539D /* Frameworks */,
 				24DCCF0721594F4500C1539D /* Resources */,
+				78B1A53C8E1170336B931A3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -370,7 +376,7 @@
 				24DCCEF621594F4400C1539D /* LaunchScreen.storyboard in Resources */,
 				24DCCEF321594F4400C1539D /* Assets.xcassets in Resources */,
 				24DCCEF121594F4400C1539D /* Main.storyboard in Resources */,
-				2479CA19215A9DE100FD9297 /* data.json in Resources */,
+				244A29642162A1FC00274318 /* tango_data.realm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,8 +393,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246494CF2163F498007DB156 /* tango_data.realm in Resources */,
 				24DCCF1321594F4600C1539D /* Assets.xcassets in Resources */,
-				2479CA1C215AA7DB00FD9297 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +421,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44BFD6FAE1BD7FD520960501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HiZashi/Pods-HiZashi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm-iOS/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift-iOS/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiZashi/Pods-HiZashi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B1A53C8E1170336B931A3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HiZashi WatchKit Extension/Pods-HiZashi WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm-watchOS/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift-watchOS/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiZashi WatchKit Extension/Pods-HiZashi WatchKit Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5062190D2BDAA091CD5BD74 /* [CP] Check Pods Manifest.lock */ = {
@@ -468,10 +522,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2479CA15215A9C9400FD9297 /* DataModel.xcdatamodeld in Sources */,
-				2479CA1B215AA30100FD9297 /* WordEntity.swift in Sources */,
+				244A29622160D5C500274318 /* Schedule.swift in Sources */,
+				2479CA2B2160C9CB00FD9297 /* TanGo.swift in Sources */,
 				24DCCEEE21594F4400C1539D /* ViewController.swift in Sources */,
 				24DCCEEC21594F4400C1539D /* AppDelegate.swift in Sources */,
+				244A29662162A2EA00274318 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,12 +534,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244A29672162A48500274318 /* DataModel.swift in Sources */,
 				2479CA21215BF53200FD9297 /* WordListRowController.swift in Sources */,
 				2479CA29215D457000FD9297 /* Consts.swift in Sources */,
-				2479CA1D215AA7DB00FD9297 /* WordEntity.swift in Sources */,
 				24DCCF1121594F4500C1539D /* ExtensionDelegate.swift in Sources */,
 				24DCCF0F21594F4500C1539D /* WordInterfaceController.swift in Sources */,
 				2479CA1F215BF2BE00FD9297 /* WordListInterfaceController.swift in Sources */,
+				244A29682162A4FD00274318 /* TanGo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -596,6 +653,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -811,19 +869,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2479CA13215A9C9400FD9297 /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2479CA14215A9C9400FD9297 /* DataModel.xcdatamodel */,
-			);
-			currentVersion = 2479CA14215A9C9400FD9297 /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 24DCCEE021594F4400C1539D /* Project object */;
 }

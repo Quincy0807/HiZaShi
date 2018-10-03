@@ -3,7 +3,7 @@
 #
 
 def shared_pods
-  pod 'Yaml'
+  pod 'RealmSwift'
 end
 
 target 'HiZashi' do
@@ -11,7 +11,7 @@ target 'HiZashi' do
   platform :ios, '9.0'
   use_frameworks!
 
-  # Pods for HiZashi
+  shared_pods
 
 end
 
@@ -20,7 +20,7 @@ target 'HiZashi WatchKit App' do
   platform :watchos, '5'
   use_frameworks!
 
-  # Pods for HiZashi WatchKit App
+  shared_pods
 
 end
 
@@ -29,6 +29,6 @@ target 'HiZashi WatchKit Extension' do
   platform :watchos, '5'
   use_frameworks!
 
-  # Pods for HiZashi WatchKit Extension
+  shared_pods
 
 end

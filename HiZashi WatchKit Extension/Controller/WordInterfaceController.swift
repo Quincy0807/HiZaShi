@@ -16,7 +16,7 @@ class WordInterfaceController: WKInterfaceController, WKCrownDelegate {
     @IBOutlet weak var sentenceLabel: WKInterfaceLabel!
     
     private var fromWordsList = false
-    private var currentWordEntitry: WordEntity? = nil
+    private var currentTanGo: TanGo? = nil
     private let maxFontSize = WORD_ENTITY_MAX_FONT_SIZE
     private let minFontSize = WORD_ENTITY_MIN_FONT_SIZE
     private var currentFontSize = WORD_ENTITY_MIN_FONT_SIZE
@@ -43,8 +43,8 @@ class WordInterfaceController: WKInterfaceController, WKCrownDelegate {
         super.awake(withContext: context)
         self.crownSequencer.delegate = self
         self.setTitle("日差し")
-        if let wordEntity = context as? WordEntity {
-            currentWordEntitry = wordEntity
+        if let tanGo = context as? TanGo {
+            currentTanGo = tanGo
             fromWordsList = true
         }else{
             randomWord()
@@ -77,21 +77,21 @@ class WordInterfaceController: WKInterfaceController, WKCrownDelegate {
     
     // MARK:- helper functions
     func randomWord(){
-        let wordEntities = DataManager.allWords()
-        let size = wordEntities.count
-        var nextWordEntity: WordEntity? = nil
+        let tanGo = DataModel.allTanGos()
+        let size = tanGo.count
+        var nextTanGo: TanGo? = nil
         repeat {
             let randomInt = Int.random(in: 0..<size)
-            nextWordEntity = wordEntities[randomInt]
-        }while(nextWordEntity == currentWordEntitry)
-        currentWordEntitry = nextWordEntity
+            nextTanGo = tanGo[randomInt]
+        }while(nextTanGo == currentTanGo)
+        currentTanGo = nextTanGo
     }
     
     func updateWordEntity(){
-        let currentWordEntitry = self.currentWordEntitry!
-        setText(currentWordEntitry.word, for: wordLabel)
-        setText(currentWordEntitry.explaination, for: explainationLabel)
-        setText(currentWordEntitry.sentence, for: sentenceLabel)
+        let currentTanGo = self.currentTanGo!
+        setText("\(currentTanGo.word)(\(currentTanGo.tone))", for: wordLabel)
+        setText(currentTanGo.explanation, for: explainationLabel)
+        setText(currentTanGo.example, for: sentenceLabel)
     }
     
     func setText(_ text: String, for label: WKInterfaceLabel){

@@ -16,11 +16,11 @@ class WordListInterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        let words = DataManager.allWords()
+        let words = DataModel.allTanGos()
         wordListTable.setNumberOfRows(words.count, withRowType: "WordRow")
         for index in 0..<words.count {
             guard let controller = wordListTable.rowController(at: index) as? WordListRowController else {continue}
-            controller.wordEntity=words[index]
+            controller.tanGo = words[index]
         }
     }
     
@@ -36,7 +36,7 @@ class WordListInterfaceController: WKInterfaceController {
     
     // MARK:- table delegate
     override func table(_ table: WKInterfaceTable, didSelectRowAt rowIndex: Int) {
-        let wordEntity = DataManager.allWords()[rowIndex]
+        let wordEntity = DataModel.allTanGos()[rowIndex]
         presentController(withName: "Word", context: wordEntity)
     }
     
